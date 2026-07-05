@@ -1,4 +1,7 @@
-/* i got two int and have to convert it to a binary number and and do some operation */
+/* 
+i got two int and have to convert it to a binary number and and do some operation
+without using any loop
+*/
 
 #include<stdio.h>
 int main()
