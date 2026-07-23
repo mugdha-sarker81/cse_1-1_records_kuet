@@ -1,5 +1,12 @@
 /* read intgers until 0, skip negative and palindrome, 
 for the remaining count collatz step(if even n/2, otherwise 3*n+1, until it becomes one)
+                                12 steps: 9
+for: 12 7 121 -4 0              7 steps: 16
+                                skipped: 121
+                                skipped: -4
+                                terminated
+                                valid count: 2
+                                total count: 25
 */
 #include<stdio.h>
 
@@ -10,7 +17,7 @@ int palindrome(int x){
         sum+= dig; sum*=10; 
     }
     sum/=10;
-    if(sum==n && n>9){ return 1;}
+    if(sum==n && n>9){ return 1;}                 
     else{ return 0;}
 }
   
