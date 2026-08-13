@@ -1,4 +1,6 @@
 /*
+ata nai
+
  You are given a N N matrix M containing integer values. Replace each element (13 M[i][j] with the sum of its adjacent elements (top, bottom, left, right).
 If an adjacent element does not exist (i.e., at edge/corners), consider it as 0. 
 Write the program in C using only pointers and instead of array indexing use pointer arithmetic.
