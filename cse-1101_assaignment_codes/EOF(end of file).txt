@@ -1,0 +1,17 @@
+question: what is the significance of EOF ?
+
+***************solution: *********************
+EOF (End Of File)
+
+EOF is a special value used in C to indicate that the end of a file or input stream has been reached.
+
+Defined in <stdio.h>
+Usually has the value −1
+It is not an actual character in the file.
+
+Example:
+
+while ((c = getchar()) != EOF)
+    putchar(c);
+
+Significance: It helps detect when there is no more input to read.
