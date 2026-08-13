@@ -1,0 +1,12 @@
+“All character arrays are not strings, and all strings are character arrays.”
+  
+**A character array is simply an array whose elements are char.
+char arr[5] = {'H', 'e', 'l', 'l', 'o'};
+
+This is a character array, but it is not a C string.
+Why? Because a C string must end with a special character: '\0' called NULL character.
+
+A string is a sequence of characters that ends with '\0'.
+char str[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+you can also write:  char str[] = "Hello";
+So the array actually has 6 elements, not 5.
