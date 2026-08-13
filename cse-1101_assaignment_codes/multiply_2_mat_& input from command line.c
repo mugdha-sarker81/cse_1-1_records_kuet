@@ -10,7 +10,7 @@ gcc multiply.c -o m
 #include<stdio.h>
 #include<stdlib.h>
 void input_mat(int a,int b,int mat[a][b]);
-void multiply(int a,int b,int c,int d,int mat1[a][b],int mat2[c][d],int res[b][c]);
+void multiply(int a,int b,int c,int d,int mat1[a][b],int mat2[c][d],int res[a][d]);
 void print_mat(int a,int b,int mat[a][b]);
 int main(int argc,char *argv[])
 {
