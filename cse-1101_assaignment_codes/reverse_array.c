@@ -1,4 +1,6 @@
 /*
+eta nai 
+
 print an array in reverse order
 */
 #include<stdio.h>
