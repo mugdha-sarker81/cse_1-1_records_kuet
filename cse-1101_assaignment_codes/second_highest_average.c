@@ -1,4 +1,6 @@
 /*
+ata nai
+
 Write a program in C that will take the roll number and marks of 3 subjects
 (Math, Physics, Chemistry) of N students as input. Calculate the average mark
 of each student and print the roll number and average mark of the student
